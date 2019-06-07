@@ -59,7 +59,7 @@ def get_cafe_from_daum(addr_pkl_num, db_name, db_col):
     #options.add_argument('headless')
     #options.add_argument('window-size=1920x1080') #size조절도 가능(반응형 웹 크롤링할 때)
 
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome("/home/ubuntu/chromedriver",options=options)
     url = 'https://map.kakao.com/'
     driver.get(url)
 
