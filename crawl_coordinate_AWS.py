@@ -34,7 +34,7 @@ def get_coordinates(addr_ls, num):
         # enter
         driver.find_element_by_xpath('//*[@id="searchboxinput"]')\
         .send_keys(Keys.RETURN)
-        time.sleep(3.5)
+        time.sleep(1)
         # get value
         x, y = re.findall('\d+\.\d+', driver.current_url)[:2]
         data['addr'] = addr
