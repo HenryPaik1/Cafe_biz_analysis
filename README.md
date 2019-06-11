@@ -1,12 +1,12 @@
 # Analysis for a Coffee Cafe in Seoul(on goging)
 - Purpose: help to find respective place to open a cafe in seoul
----
+
 - Data field: 
 	- cafe name, number of review, address 
 	- TBD(the distance between the nearest subway station and the cafe)
 - Overview Visualization by ELK
 <img src="kibana.png">
----
+
 - Resource:
 	- `addr_complete.pickle`: Seoul addr ()
 		- *eg. {'강남구': ['강남대로100길', ..., '강남대로132길', ...], '강동구': [...], ...}*
